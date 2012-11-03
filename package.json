@@ -1,10 +1,23 @@
 {
   "name": "dependency-manager",
-  "version": "0.0.1",
-  "dependencies": {
+  "description": "Simple dependency injection manager",
+  "keywords": [
+    "dependency",
+    "dependencies",
+    "injection",
+    "dependency injection",
+    "DI"
+  ],
+  "version": "0.0.2",
+  "author": "Rob Griffiths <rob@bytespider.eu> http://bytespier.eu",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bytespider/dependency-manager.git"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.x"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "node": "*"
   }
 }

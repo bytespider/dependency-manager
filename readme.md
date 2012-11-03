@@ -1,4 +1,4 @@
-#Simple dependency manager
+#Simple dependency injection manager
 Creates instances of objects initialised with a graph of dependencies.
 
     var di = new DependencyManager();
